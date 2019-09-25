@@ -1,8 +1,8 @@
 server:
-  port: 25000
+  port: 20001
 # Zero MQ Configuration
 zeromq:
-  address-port: tcp://*:25566
+  address-port: tcp://*:20002
 # MQTT Sender Details
 mqtt:
   broker: mosquitto
