@@ -1,0 +1,17 @@
+server:
+  port: 25000
+# Zero MQ Configuration
+zeromq:
+  address-port: tcp://*:25566
+# MQTT Sender Details
+mqtt:
+  broker: mosquitto
+  password: guest
+  port: 1883
+  topic: coreData
+  user-name: guest
+spring:
+  cloud:
+    consul:
+      discovery:
+        health-check-path: /api/v1/ping
