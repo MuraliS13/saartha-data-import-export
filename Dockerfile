@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM arm64v8/alpine
 RUN apk --update add openjdk8-jre
 ENV APP_DIR=/saartha/dataimportexport
 ENV APP=saartha-data-import-export.jar
