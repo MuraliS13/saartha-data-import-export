@@ -15,3 +15,4 @@ spring:
     consul:
       discovery:
         health-check-path: /api/v1/ping
+        health-check-interval: 30s
